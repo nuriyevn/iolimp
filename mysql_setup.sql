@@ -6,6 +6,7 @@ GRANT ALL PRIVILEGES ON `ejudge`.* TO 'ejudge'@'%';
 //Check that mysql database password in judges folder is the same as in all queries
 // Probably ejudge-setup works incorrectly
 GRANT ALL PRIVILEGES ON *.* TO 'ejudge'@'localhost';
+SET PASSWORD FOR 'ejudge'@'localhost' = PASSWORD('*******');
 
 
 // Useful commands
