@@ -1,0 +1,13 @@
+1. Enable secure run = "NO"
+2. Allow by ips.
+3. Kirov/ACM olimpiad
+4. Free registration
+5. Standings freeze time = disable
+6. Checker delete from abstract
+7. Select check for all tasks
+8. Put statement.xml on abstract
+9. Put checker on abstract
+10. Set time/memory limit.
+11. Contest is personal
+12. Solve permission denied issue.
+13. Enable text input form anyway: YES  from advanced abstract problem
