@@ -1,3 +1,8 @@
 1. The files (symbolic links) in the CGI-BIN-DIR cannot be modified neither with chmod nor with chown.
 Only copying from /opt/ejudge/libexec/ejudge/cgi-bin helps
 
+MUST DO THIS:
+
+ # cd CGI_BIN_DIR
+ # rm -rf new-* judge master register serve-control team users
+ # cp EJUDGE_PREFIX/libexec/ejudge/cgi-bin/* ./
