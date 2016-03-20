@@ -6,3 +6,6 @@ MUST DO THIS:
  # cd CGI_BIN_DIR
  # rm -rf new-* judge master register serve-control team users
  # cp EJUDGE_PREFIX/libexec/ejudge/cgi-bin/* ./
+ 
+ ALSO must copy:
+ # cp -PR EJUDGE_PREFIX/share/ejudge/style/* /var/www/html/<domain-name>/ejudge
