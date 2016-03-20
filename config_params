@@ -1,1 +1,1 @@
---prefix=/opt/ejudge --enable-contests-home-dir=/home/judges --with-httpd-cgi-bin-dir=/var/www/cgi-bin --with-httpd-htdocs-dir=/var/www/html/ --enable-ajax
+--prefix=/opt/ejudge --enable-charset=utf-8 --enable-contests-home-dir=/home/judges --with-httpd-cgi-bin-dir=/var/www/cgi-bin --with-httpd-htdocs-dir=/var/www/html/ --enable-ajax
